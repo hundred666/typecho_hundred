@@ -1,0 +1,142 @@
+
+img {
+    height: auto; /* Make sure images are scaled correctly. */
+    max-width: 100%; /* Adhere to container width. */
+}
+
+table {
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+
+/*--------------------------------------------------------------
+# index
+--------------------------------------------------------------*/
+.post-list {
+    margin-top: 30px;
+}
+
+.post-list .post-title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.post-list .post-content {
+    min-height: 60px;
+    font-size: 15px;
+    font-family: miranafont, "Hiragino Sans GB", STXihei, "Microsoft YaHei", SimSun, sans-serif;
+    color: #828282;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.p-time {
+    color: #989898;
+    letter-spacing: 1px;
+    font-family: din,'Hiragino Sans GB','Microsoft Yahei',Arial,sans-serif;
+}
+
+
+/*--------------------------------------------------------------
+# content
+--------------------------------------------------------------*/
+
+.post .post-content ul {
+    list-style: disc;
+    background: #F9F9F9;
+    border: 1px dashed #E4E4E4;
+    padding: 15px 10px 15px 50px;
+    color: #616161;
+    margin-left: 0;
+}
+
+.post .post-content ol {
+    list-style: decimal;
+    background: #F9F9F9;
+    border: 1px dashed #E4E4E4;
+    padding: 15px 10px 15px 50px;
+    color: #616161;
+    margin-left: 0;
+}
+
+.post .post-content ol li , .post .post-content ul li {
+    padding: 8px 0;
+}
+
+.post .post-content {
+    position: relative;
+}
+
+.post .post-content h3 {
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #ddd;
+    color: #737373;
+}
+
+.post .post-content h3:before {
+    content: "[";
+    margin-right: 5px;
+    color: #FF6D6D;
+    font-size: 25px;
+}
+
+.post .post-content h3:after {
+    content: "]";
+    margin-left: 5px;
+    color: #FF6D6D;
+    font-size: 25px;
+}
+
+.post .post-content a {
+    color: #E67474;
+    text-decoration: underline;
+}
+
+.post .post-content a:hover {
+    color: #72C5A6;
+}
+
+
+h1.entry-title {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.post .post-content p{
+    color:#797979
+}
+
+.post .post-content p{
+    line-height:30px
+}
+
+.entry-header hr {
+    width:30%;
+    height:1px;
+    border: 0;
+    background: #EFEFEF;
+    margin: 20px 0;
+}
+
+.Extendfull img {
+    width:100%;
+    border: 5px solid #F3F3F3;
+}
+
+/*--------------------------------------------------------------
+# content
+--------------------------------------------------------------*/
+#comment-form {
+    padding: 20px 0;
+}
+
+/*--------------------------------------------------------------
+# content
+--------------------------------------------------------------*/
+#footer {
+    margin-top: 5%;
+}
+
